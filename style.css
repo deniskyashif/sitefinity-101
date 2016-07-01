@@ -1,0 +1,127 @@
+@font-face { 
+	font-family: "sigmar-one";
+	src: url("./fonts/SigmarOne.ttf");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    color: #354A54 !important;
+}
+
+.red {
+    color: #952922;
+}
+
+.no-border{
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.reveal-shared #pug {
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    z-index: 20;
+    left: 75px;
+    bottom: 50px;
+}
+
+.reveal-shared #nvs {
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.sigmar-one {
+    font-family: "sigmar-one" !important;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    margin-bottom: 1% !important;
+}
+
+#intro h1 {
+    margin-top: -6%;
+}
+
+#about-author div {
+    margin-left: 8%;
+}
+
+#digital-assets > div {
+    display: flex;
+    margin-top: -3%;
+}
+
+#digital-assets ul {
+    margin-top: 10%;
+}
+
+#digital-assets li {
+    font-size: 0.8em;
+    margin-bottom: 5% !important;
+}
+
+#personalization h3 {
+    margin-bottom: 0;
+}
+
+#personalization ul {
+    font-size: 0.8em;
+}
+
+#mobile ul {
+    font-size: 0.8em;
+}
+
+#multisite-management ul, #multilingual ul {
+    font-size: 0.9em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#deployment-options ul {
+    margin-top: 4%;
+    margin-right: 5%;
+    font-size: 0.8em;
+}
+
+#deployment-options li {
+    padding-bottom: 1%;
+}
+
+#platform-connectivity ul {
+    font-size: 0.8em;
+    margin-left: 0%;
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+#platform-connectivity li {
+    padding-bottom: 2%;
+}
+
+#platform-connectivity #crm-images {
+    margin-top: -2%;
+}
+
+#aspnet-support {
+    font-size: 0.9em;    
+}
+
+#vs-support #vs-logo {
+    position: absolute;
+    top: 82%;
+    left: 32%;
+}
+
